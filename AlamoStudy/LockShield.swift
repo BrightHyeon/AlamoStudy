@@ -9,16 +9,12 @@ import SwiftUI
 
 struct LockShield: View {
     var body: some View {
-        GeometryReader { geometry in
-            VStack {
-                let width = geometry.size.width
-                let height = geometry.size.height
-                Image(systemName: "lock.shield.fill")
-                    .resizable()
-                    .frame(width: width / 2, height: height / 3)
-            }
-            .frame(width: geometry.size.width, height: geometry.size.height)
+        VStack {
+            Image(systemName: "lock.shield.fill")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
         }
+        .padding()
     }
 }
 
