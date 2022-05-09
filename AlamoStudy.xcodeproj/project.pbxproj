@@ -14,6 +14,8 @@
 		96377CF628290234004B0325 /* AlamoStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96377CF528290234004B0325 /* AlamoStudyTests.swift */; };
 		96377D0028290234004B0325 /* AlamoStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96377CFF28290234004B0325 /* AlamoStudyUITests.swift */; };
 		96377D0228290234004B0325 /* AlamoStudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96377D0128290234004B0325 /* AlamoStudyUITestsLaunchTests.swift */; };
+		96A9B56F28295B91003957A4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A9B56E28295B91003957A4 /* LoginView.swift */; };
+		96A9B57128295BF4003957A4 /* LockShield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A9B57028295BF4003957A4 /* LockShield.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		96377CFB28290234004B0325 /* AlamoStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlamoStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96377CFF28290234004B0325 /* AlamoStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamoStudyUITests.swift; sourceTree = "<group>"; };
 		96377D0128290234004B0325 /* AlamoStudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamoStudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96A9B56E28295B91003957A4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		96A9B57028295BF4003957A4 /* LockShield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockShield.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				96377CE428290233004B0325 /* AlamoStudyApp.swift */,
 				96377CE628290233004B0325 /* ContentView.swift */,
+				96A9B56E28295B91003957A4 /* LoginView.swift */,
+				96A9B57028295BF4003957A4 /* LockShield.swift */,
 				96377CE828290233004B0325 /* Assets.xcassets */,
 				96377CEA28290233004B0325 /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A9B56F28295B91003957A4 /* LoginView.swift in Sources */,
+				96A9B57128295BF4003957A4 /* LockShield.swift in Sources */,
 				96377CE728290233004B0325 /* ContentView.swift in Sources */,
 				96377CE528290233004B0325 /* AlamoStudyApp.swift in Sources */,
 			);
